@@ -1,0 +1,130 @@
+h1{
+    background-color: #4aafe2;
+    color: rgb(12, 11, 11);
+    padding: 15px;
+}
+
+h2{
+    text-align: center;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  float: right;
+
+}
+
+th,
+td {
+  padding: 5px;
+  text-align: right;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.search-container {
+  position: absolute;
+}
+
+.search-bar {
+  padding: 10px;
+  border: 1px solid #100f0f;
+  border-radius: 10px;
+  width: 250px;
+}
+
+.search-icon {
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  cursor: pointer;
+}
+
+.logo-container {
+  background-color: #4aafe2;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-container img {
+  width: 100px;
+  height: 100px;
+}
+
+.logo-text {
+  font-size: 24px;
+  font-weight: bold;
+}
+.tagline {
+text-align: center;
+font-weight: bold;
+font-size: 30px; 
+margin-top: 60px;
+margin-left: 20px;}
+
+.container {
+max-width: 600px;
+margin: 50px auto;
+padding: 20px;
+background: white;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+text-align: center;
+color: #333;
+}
+
+form {
+display: flex;
+flex-direction: column;
+}
+
+label {
+margin-bottom: 10px;
+font-weight: bold;
+}
+
+input[type="text"] {
+padding: 10px;
+margin-bottom: 20px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+button {
+padding: 10px;
+background-color: #4aafe2;
+color: white;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #4aafe2;
+}
+
+.recipe-output {
+margin-top: 20px;
+padding: 10px;
+background: #e9ecef;
+border-radius: 4px;
+}
+.recipe-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+a{
+  text-align: center;
+}
